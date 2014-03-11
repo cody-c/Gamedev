@@ -11,12 +11,22 @@ class Laser(pygame.sprite.Sprite):
             print "cannot load image: "+ image_name
             raise SystemExit, Message
         return image.convert_alpha()
+    
+    def load_sound(self, sound_name):
+        try:
+            sound = pygame.mixer.Sound(sound_name)
+        except pygame.error, message:
+            print "Cannot load sound: " + sound_name
+            raise SystemExit, message
+        return sound
 
     def __init__(self, screen,  init_x, init_y, init_y_speed):
         pygame.sprite.Sprite.__init__(self) #pygame sprite init
         self.screen = screen
         #load image
         self.image = self.load_image("./assets/laser.gif")
+        self.sound = self.load_sound("./assets/laser.wav")
+        self.sound.play()
         self.rect = self.image.get_rect()#set the rect attribute (collision)
         
         #get width and height
@@ -34,7 +44,8 @@ class Laser(pygame.sprite.Sprite):
     def update(self):
         ''' move the laser a bit'''
         self.y = self.y + self.dy
-        self.rect.y = self.rect.y + self.dy
+        self.rect.x = self.x
+        self.rect.y = self.y
         if(self.y < 0):
             self.active = False
         if(self.active == False):
@@ -78,7 +89,7 @@ if __name__ == "__main__":
         
         if(laser_timer == 0):
             sprites.append(Laser(screen, randint(100, SCREEN_WIDTH-100), randint(400, 600), randint(3,MAX_SPEED)))
-            print(str(len(sprites))+" sprites")
+#            print(str(len(sprites))+" sprites")
         
         for event in pygame.event.get():
             if event.type == pygame.event.get():
