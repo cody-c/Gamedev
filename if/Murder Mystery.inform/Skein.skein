@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02DDAC90" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02DDAC90"/>
+  <item nodeId="node-0x02DDAC90">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">"The address is One Overlook Court, you'll see it on the left, a little ways after the 50 mile marker on the main road." You stiffen down on the gas pedal, still another few miles. The message continued: "and look, I hope you know how much it means to me that you would come all this way out here tonight.  Things have been really tough for me lately -everything falling apart with John and now my dad's back in the hospital and- well you know. And I mean I know it's just some stupid dinner party for work and it'll probably be really boring- Look. I just want to say thanks; You're a really good friend, and you've kept me going these past few weeks. Uh, so yeah....I'll see you later tonight I guess. " She fumbled with the phone  for a few seconds before finally hanging up.&#x000A;&#x000A;Ten minutes later you see the 50 mile marker fly by and ease off the gas.  To the left of the road drops away into a deep valley, to the right a woody incline. This was woodsman and redneck country, why a CEO of a fortune 500 company would live here was beyond you. The rain lightens for just a moment and you can make out an old rusted street sign ahead: "Overlook ct".  You slow down and turn right, your tires push off of the wet road and onto the dirt driveway. The path climbs gradually up into the forest, you can see a few tire tracks carved into the muddy road.  Big drops of rain drip off of the canopy of trees above. A few brightly colored leaves dance through the headlights. After about ten minutes of a slow climb, you round the corner to a brilliantly lit stone manor. To the left is a small parking lot, with five cars lined up diagonally. You pull into the free spot at the end, pull your coat over your head as an umbrella and make a quick dash for the door. There is no doorbell but a large polished brass knocker over old mahogany woodwork. You pause for just a second to catch your breath and lift the heavy knocker. After just a few moments, the door is opened and you enter.[ if stuck, try talking to people]&#x000A;Darkshire Manor&#x000A;An Interactive Fiction by Cody Chen&#x000A;Release 1 / Serial number 140319 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Lobby&#x000A; A butler takes your coat and puts it in the hall closet. "Good evening" He says. "If you would kindly proceed to the parlor, we are waiting on just another guest. Your host will be by shortly." The lobby seems to share the dark wood style of the door, decorative panels coat the outside of the room. A heavy tile floor connects the walls, and above it dangles a giant chandelier.The lobby is a large atruim, it's airspace extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east and southeast are shut. &#x000A;&#x000A;You can see Cellar, a bear door, the head butler and Grand Staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02DDAA60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDAA60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDA9F0"/>
+      <child nodeId="node-0x02DDAB40"/>
+      <child nodeId="node-0x02DDE228"/>
+      <child nodeId="node-0x02DDE688"/>
+      <child nodeId="node-0x02DE3750"/>
+      <child nodeId="node-0x02DE3D00"/>
+      <child nodeId="node-0x02DFAFE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDA9F0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDA980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDA980">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">Dining room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDA6E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDA6E0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DDAB40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDA910"/>
+      <child nodeId="node-0x02DDEB58"/>
+      <child nodeId="node-0x02DDDC78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDA910">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler, Grand Staricase and Billiards Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDAAD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDAAD0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDABB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDABB0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler, Grand Staricase and Billiards Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDA8A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDA8A0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDA830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDA830">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler, Grand Staricase and Billiards Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDAD70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDAD70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDAC20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDAC20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler, Grand Staricase and Billiards Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDA600"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDA600">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDA750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDA750">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler, Grand Staricase and Billiards Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDA7C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDA7C0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDEAE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDEAE8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler, Grand Staricase and Billiards Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DDEB58">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">Dining room&#x000A;The dining looks to be modeled after some kind of medival hunting lodge.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDEA08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDEA08">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDEA78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDEA78">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Parlor&#x000A;You enter the parlor. "You made it!" a voice cries out as you step into the room. Your old friend Sarah comes rushing over and gives you a hug. She is dressed to the nines in high heels and a shimmering crimson dress.  "You made it!" she exclaims, "I was getting worried you might have slid off the road with that storm breweing out there!"&#x000A;&#x000A;"Ha, no, the driving wasn't bad" you reassure her. "Though I didn't expect to be an 40 miles into the wilderness on a Fridaty.  I'm surprised we even get cell reception out here" "I wouldn't be to sure about that, we're a ways off the main road. Well, let me show you around. Over there's  the Mr Wentworth. He's a business partner, I think he has something to do with my promotion. By the window are Dr Albrecht and Mr Crow. They're going at it right now about the ethical implications of what Albrecht is doing as head of R&amp;D, I wouldn't between them if I were you. &#x000A;&#x000A;Parlor has a dark wooden floor, with exquisite furnishings. A bay window overlooks the driveway and another overlooks the valley to the west. &#x000A;&#x000A;You can see a bottle of whisky, a bottle of gin, Sarah, Alan Wentworth, Dr Albrecht and David Crow here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE768"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE768">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see Grand Staricase, Game Door and Cellar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDDD58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDDD58">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see the head butler and a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDDF88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDDF88">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Bedroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE538"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE538">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see the head butler and a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE308"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE308">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see Grand Staricase, Game Door and Cellar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE848"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE848">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see the head butler and a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE1B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE1B8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see Grand Staricase, Game Door and Cellar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE5A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE5A8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see the head butler and a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDDC08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDDC08">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see Grand Staricase, Game Door and Cellar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE378"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE378">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see the head butler and a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE068"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE068">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see Grand Staricase, Game Door and Cellar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE0D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE0D8">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">Basement&#x000A;You can see cellar Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE148"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE148">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE458"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE458">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see Grand Staricase, Game Door and Cellar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDDCE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDDCE8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see the head butler and a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE928"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE928">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Guest suite&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE7D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE7D8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE998"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE998">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see the head butler and a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE4C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE4C8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Bedroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE3E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE3E8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see the head butler and a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE618"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE618">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Guest suite&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDDFF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDDFF8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Upstairs&#x000A;You can see the head butler and a Grand staircase here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDDDC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDDDC8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The Study&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DDDC78">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Parlor&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE8B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE8B8">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Storage Closet&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DDE228">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler, Grand Staricase, Billiards Door and If butler here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DDE688">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler, Grand Staricase, Game Door and Cellar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDE6F8"/>
+      <child nodeId="node-0x02DE3830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDE6F8">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Parlor&#x000A;You enter the parlor. "You made it!" a voice cries out as you step into the room. Your old friend Sarah comes rushing over and gives you a hug. She is dressed to the nines in high heels and a shimmering crimson dress.  "You made it!" she exclaims, "I was getting worried you might have slid off the road with that storm breweing out there!"&#x000A;&#x000A;"Ha, no, the driving wasn't bad" you reassure her. "Though I didn't expect to be an 40 miles into the wilderness on a Fridaty.  I'm surprised we even get cell reception out here" "I wouldn't be to sure about that, we're a ways off the main road. Well, let me show you around. Over there's  the Admiral &#x000A;&#x000A;Parlor has a dark wooden floor, with exquisite furnishings. A bay window overlooks the driveway and another overlooks the valley to the west. &#x000A;&#x000A;You can see a bottle of whisky, a bottle of scotch, Sarah, Mr Wentworth, Dr Albrecht and David Crow here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDDE38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDDE38">
+    <command xml:space="preserve">drink</command>
+    <result xml:space="preserve">What do you want to drink?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DDDEA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DDDEA8">
+    <command xml:space="preserve">take drink</command>
+    <result xml:space="preserve">Which do you mean, the whisky or the scotch?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3FA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3FA0">
+    <command xml:space="preserve">drink whisky</command>
+    <result xml:space="preserve">There's nothing suitable to drink here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3670"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3670">
+    <command xml:space="preserve">take whisky</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE41D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE41D0">
+    <command xml:space="preserve">take whisky</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE4160"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE4160">
+    <command xml:space="preserve">take whisky</command>
+    <result xml:space="preserve">You think you've had enough for now&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3520"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3520">
+    <command xml:space="preserve">drink whisky</command>
+    <result xml:space="preserve">There's nothing suitable to drink here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DE3830">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">Dining room&#x000A;The dining looks to be modeled after some kind of medival hunting lodge.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE4080"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE4080">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dining room&#x000A;The dining looks to be modeled after some kind of medival hunting lodge.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE39F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE39F0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3D70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3D70">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dining room&#x000A;The dining looks to be modeled after some kind of medival hunting lodge.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3910"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3910">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dining room&#x000A;The dining looks to be modeled after some kind of medival hunting lodge.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE4010"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE4010">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3DE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3DE0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dining room&#x000A;The dining looks to be modeled after some kind of medival hunting lodge.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE40F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE40F0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE4240"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE4240">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dining room&#x000A;The dining looks to be modeled after some kind of medival hunting lodge.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3BB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3BB0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Dining room&#x000A;The dining looks to be modeled after some kind of medival hunting lodge.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DE3750">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">The Butler stops you and says "That is a Closet. Wait in the parlor please".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3C20"/>
+      <child nodeId="node-0x02DE3EC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3C20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see the head butler, Grand Staricase, Billiards Door and If the butler here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3E50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3E50">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">The Butler stops you and says "The parlor please".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DE3EC0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">The Butler stops you and says "After dinner drinks are in the Game Room. The parlor please".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3980"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3980">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE34B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE34B0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Parlor&#x000A;You enter the parlor. "You made it!" a voice cries out as you step into the room. Your old friend Sarah comes rushing over and gives you a hug. She is dressed to the nines in high heels and a shimmering crimson dress.  "You made it!" she exclaims again, "I was getting worried you might have slid off the road with that storm brewing out there!"&#x000A;&#x000A;"Ha, no, the driving wasn't bad" you reassure her. "Though I didn't expect to be an 40 miles into the wilderness on a Friday.  I'm surprised we even get cell reception out here" "Well as the newly promoted head of marketing for Universal Cell towers incorperated, you have me to thank for that." she said smugly. "Well, let me show you around. Over there's  the Mr Wentworth. He's the second in comand, behind Mr. Vectim.  I think he has something to do with my promotion. By the window are Dr Albrecht and Mr Crow. Alrbecht is head of R&amp;D, she can be a bit scary at times. Crow is this big time investor, I don't know too much about him except that he's really old money. They're going at it right now about the ethical implications of what Albrecht is doing as head of R&amp;D, I wouldn't between them if I were you. &#x000A;Parlor has a dark wooden floor, with exquisite furnishings. A bay window overlooks the driveway and another overlooks the valley to the west. To the north is the dining room, to the east is the lobby.&#x000A;&#x000A;You can see a bottle of whisky, a bottle of gin, a liquor cabinet (closed), a couch, Alan Wentworth, Dr Albrecht and David Crow here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3F30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3F30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Dining room&#x000A; You and sarah talk for a long time, catching up on each others" lives.  After a while, you both get hungry and decide to seek out the other guests and your host.The dining looks to be modeled after some kind of medival hunting lodge. Insead of a fancy candlelit table is what appears to be a banquet hall.  &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3AD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3AD0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Parlor&#x000A;Parlor has a dark wooden floor, with exquisite furnishings. A bay window overlooks the driveway and another overlooks the valley to the west. To the north is the dining room, to the east is the lobby.&#x000A;&#x000A;You can see a bottle of whisky, a bottle of gin, a liquor cabinet (closed), a couch, Alan Wentworth, Dr Albrecht and David Crow here.&#x000A;&#x000A;A bolt of thunder cracks down right outside. With a crack and a fizz the lights quickly dim into darkness.  The room explodes in gasps, and then silence. Aside from the storm, all is quiet. &#x000A;&#x000A;Dr Albrecht's voice cuts in with in her thick german accent: "Oh no, oh no no no, I  hate  the dark.  I'll be in my car until the lights turn back on." she said, fumbling her way out the door. "Butler?" you hear her call though the door. "Oh where has that man gone?" she mumbles as the front door creeks open and shut. &#x000A;Sarah pipes up and says, "don't worry, we'll get the lights back on." Mr. Wentworth gets up and says "That sounds lovely, I'll wait in the dining room, there's light from the fire in there." he leaves. David crow says "I think I'll go check on Mr. Vectim, he sure is taking his time."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3C90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3C90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3590"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3590">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE3A60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE3A60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lobby&#x000A; The lobby is a large entryway that extends upwards to the second floor. To the west is the parlor, to the northwest is the dining room. Straight ahead to the north is a grand staircase. The doors to the northeast and east are shut. &#x000A;&#x000A;You can see a Bear door, Grand Staricase and Cellar here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE36E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE36E0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">game room&#x000A;You can see a Bear door here.&#x000A;&#x000A;You must supply a noun.&#x000A;&#x000A;You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DE3D00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You've only just arrived, Stay a while.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE38A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE38A0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Parlor&#x000A;You enter the parlor. "You made it!" a voice cries out as you step into the room. Your old friend Sarah comes rushing over and gives you a hug. She is dressed to the nines in high heels and a shimmering crimson dress.  "You made it!" she exclaims, "I was getting worried you might have slid off the road with that storm breweing out there!"&#x000A;&#x000A;"Ha, no, the driving wasn't bad" you reassure her. "Though I didn't expect to be an 40 miles into the wilderness on a Fridaty.  I'm surprised we even get cell reception out here" "I wouldn't be to sure about that, we're a ways off the main road. Well, let me show you around. Over there's  the Admiral &#x000A;&#x000A;Parlor has a dark wooden floor, with exquisite furnishings. A bay window overlooks the driveway and another overlooks the valley to the west. &#x000A;&#x000A;You can see a bottle of whisky, a bottle of scotch, Sarah, Mr Wentworth, Dr Albrecht and David Crow here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE37C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE37C0">
+    <command xml:space="preserve">accuse sarah</command>
+    <result xml:space="preserve">"I don't know how to say this Sarah, but I think you did it. All the evidence points to you. "&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE4390"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE4390">
+    <command xml:space="preserve">accuse Wentworth</command>
+    <result xml:space="preserve">"I don't know how to say this Sarah, but I think you did it. All the evidence points to you. "&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE4400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE4400">
+    <command xml:space="preserve">accuse</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE42B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE42B0">
+    <command xml:space="preserve">accuse Mr wentworth</command>
+    <result xml:space="preserve">"I don't know how to say this Sarah, but I think you did it. All the evidence points to you. "&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DE4320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DE4320">
+    <command xml:space="preserve">accuse self</command>
+    <result xml:space="preserve">"I don't know how to say this Sarah, but I think you did it. All the evidence points to you. "&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB0C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB0C0">
+    <command xml:space="preserve">accuse a</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB750"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB750">
+    <command xml:space="preserve">accuse wine</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB1A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB1A0">
+    <command xml:space="preserve">accuse scotch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFBC20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFBC20">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Parlor&#x000A;&#x000A;&#x000A;Parlor has a dark wooden floor, with exquisite furnishings. A bay window overlooks the driveway and another overlooks the valley to the west. &#x000A;&#x000A;You can see a bottle of whisky, a bottle of scotch, Sarah, Mr Wentworth, Dr Albrecht and David Crow here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFBD00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFBD00">
+    <command xml:space="preserve">accuse bottle of scoth</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFBD70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFBD70">
+    <command xml:space="preserve">accuse scotch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFBC90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFBC90">
+    <command xml:space="preserve">accuse bottle of scotch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB2F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB2F0">
+    <command xml:space="preserve">take scotch</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB7C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB7C0">
+    <command xml:space="preserve">take scotch</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB360"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB360">
+    <command xml:space="preserve">take scotch</command>
+    <result xml:space="preserve">You think you've had enough for now&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFBB40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFBB40">
+    <command xml:space="preserve">take whisky</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB4B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB4B0">
+    <command xml:space="preserve">take whisky</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFBBB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFBBB0">
+    <command xml:space="preserve">take whisky</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB3D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB3D0">
+    <command xml:space="preserve">take whisky</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02DFAFE0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Parlor&#x000A;You enter the parlor. "You made it!" a voice cries out as you step into the room. Your old friend Sarah comes rushing over and gives you a hug. She is dressed to the nines in high heels and a shimmering crimson dress.  "You made it!" she exclaims again, "I was getting worried you might have slid off the road with that storm brewing out there!"&#x000A;&#x000A;"Ha, no, the driving wasn't bad" you reassure her. "Though I didn't expect to be an 40 miles into the wilderness on a Friday.  I'm surprised we even get cell reception out here" "Well as the newly promoted head of marketing for Universal Cell towers incorperated, you have me to thank for that." she said smugly.  "A promotion!" you exclaim, "You never said you were getting promoted! and head of marketing, wow. Well you've certainly showed me." "Well yeah" she said, why else do you think I was able to invite you here tonight? I mean, it was supposed to be john here tonight, but forget him. Well, let me show you around. Over there's  the Mr Wentworth. He's the second in comand, behind Mr. Vectim.  I think he has something to do with my promotion. By the window are Dr Albrecht and Mr Crow. Alrbecht is head of R&amp;D, she can be a bit scary at times. Crow is this big time investor, I don't know too much about him except that he's really old money. They're going at it right now about the ethical implications of what Albrecht is doing as head of R&amp;D, I wouldn't between them if I were you. &#x000A;&#x000A;Parlor has a dark wooden floor, with exquisite furnishings. A bay window overlooks the driveway and another overlooks the valley to the west. To the north is the dining room, to the east is the lobby.&#x000A;&#x000A;You can see a bottle of whisky, a bottle of gin, a liquor cabinet, Sarah Kenter, Alan Wentworth, Dr Albrecht and David Crow here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB830"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB830">
+    <command xml:space="preserve">take scotch</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02DFB050"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02DFB050">
+    <command xml:space="preserve">take scotch</command>
+    <result xml:space="preserve">You pour yourself a drink&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>

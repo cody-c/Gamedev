@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>4F0BB4DB-BC18-4E84-A9C8-1C4A4091D953</ifid>
+            <format>zcode</format>
+        </identification>
+        <bibliographic>
+            <title>Darkshire Manor</title>
+            <author>Cody Chen</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2014</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2014-03-19</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6G60</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6G60</generatorversion>
+            <originated>2014-03-19</originated>
+        </colophon>
+        <zcode>
+            <serial>140319</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6G60</compiler>
+        </zcode>
+    </story>
+</ifindex>
